@@ -4,7 +4,7 @@ use ieee.std_logic_unsigned.all;
 
 entity counter is
     port (
-        clk : in std_logic;
+        clock : in std_logic;
         reset : in std_logic;
         enable : in std_logic;
         count : out std_logic_vector(3 downto 0)
